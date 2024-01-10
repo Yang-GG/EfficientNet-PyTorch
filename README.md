@@ -3,7 +3,15 @@
 ### Quickstart
 
 Install with `pip uninstall efficientnet_pytorch` and load a pretrained EfficientNet with:
-`pip install https://mirror.ghproxy.com/https://github.com/Yang-GG/EfficientNet-PyTorch.git`
+
+
+```
+
+git clone https://mirror.ghproxy.com/https://github.com/Yang-GG/EfficientNet-PyTorch.git
+cd EfficientNet-Pytorch
+pip install -e .
+
+```
 
 ```python
 from efficientnet_pytorch import EfficientNet
